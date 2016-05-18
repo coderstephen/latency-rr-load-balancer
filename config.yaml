@@ -1,0 +1,10 @@
+server:
+  port: 8000
+  max_threads: 10
+nodes:
+  - host: php.net
+    port: 80
+  - host: example.com
+    port: 80
+  - host: www.cnn.com
+    port: 80
